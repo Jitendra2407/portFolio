@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const ProfileImage = ({
   className = "",
-  imageSrc = "/profileImage.jpg",
-  imageAlt = "Binjan Profile",
+  imageSrc = "/portfolio2.png",
+  imageAlt = "Jitendra Profile",
 }) => {
   return (
     <div className={`relative ${className}`}>
@@ -27,7 +27,7 @@ const ProfileImage = ({
       </svg>
 
       {/* Profile Image Container */}
-      <div className="relative z-10 mx-auto w-48 h-60 md:w-64 md:h-80 rounded-lg overflow-hidden">
+      <div className="relative z-10 mx-auto w-48 h-60 md:w-80 md:h-96 rounded-lg overflow-hidden">
         <Image
           src={imageSrc}
           alt={imageAlt}
